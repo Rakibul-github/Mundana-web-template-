@@ -1,0 +1,375 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* 
+font-family: 'Playfair Display', serif;
+font-family: 'Source Sans Pro', sans-serif;
+*/
+/* common code start */
+.container{
+    width: 80%;
+    margin: 0px auto;
+    display: flex;
+}
+img{
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+.m20{
+    margin: 30px 0px;
+}
+/* common code end */
+/* nav code start */
+nav .nav-inner{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+/* nav-brand code */
+nav .nav-inner .nav-brand{
+    width: 10%;
+    display: flex;
+    align-items: center;
+}
+nav .nav-inner .nav-brand a{
+    display: inline-block;
+    text-decoration: none;
+    color: rgba(0,0,0,0.8);
+    font-size: 20px;
+    font-weight: 700;
+    font-family: 'Playfair Display', serif;
+    padding: 10px 0px;
+    margin: 5px 0px;
+}
+/* navber code */
+nav .nav-inner .navber{
+    display: flex;
+    width: 70%;
+    align-items: center;
+}
+.nav-inner .navber ul{
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+}
+.nav-inner .navber ul li{
+    list-style: none;
+}
+.nav-inner .navber ul li a{
+    display: inline-block;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 10px;
+    color: rgba(0, 0, 0, 0.6);
+    font-family: 'Source Sans Pro', sans-serif;
+    transition: 0.5s all;
+}
+.nav-inner .navber ul li a:hover{
+    color: rgba(0, 0, 0, 0.9);
+}
+.nav-inner .navber ul li a small{
+    color: #fff;
+    background: #7832E2;
+    padding: 2px 6px;
+    border-radius: 4px;
+    font-size: 13px;
+    font-weight: 400;
+    font-family: 'Source Sans Pro', sans-serif;
+
+}
+/* brand-button code */
+nav .nav-inner .brand-button{
+    width: 20%;
+    display: flex;
+    justify-content: end;
+}
+nav .nav-inner .brand-button a{
+    display: inline-block;
+    text-decoration: none;
+    color: #03A87C;
+    background: #fff;
+    border: 1px solid #03A87C;
+    font-size: 15px;
+    font-weight: 400;
+    font-family: 'Source Sans Pro', sans-serif;
+    padding: 7px 15px;
+    border-radius: 3px;
+    transition: 0.5s all;
+}
+nav .nav-inner .brand-button a:hover{
+    color: #fff;
+    background: #03A87C;
+    border: 1px solid #03A87C;
+}
+/* nav code end */
+/* header code start */
+.header-inner .content{
+    width: 50%;
+    background: #E8F3EC;
+}
+.header-inner .content .content-inner{
+    padding: 50px;
+}
+.header-inner .content .content-inner h1{
+    font-size: 40px;
+    font-weight: 700;
+    color: #212529;
+    font-family: 'Playfair Display', serif;
+}
+.header-inner .content .content-inner p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #212529;
+    font-family: 'Source Sans Pro', sans-serif;
+    line-height: 26px;
+    margin: 20px 0px;
+}
+.header-inner .content .content-inner a{
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    background-color: #212529;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Source Sans Pro', sans-serif;
+    padding: 10px 20px;
+    border-radius: 6px;
+    transition: 0.5s all;
+    opacity: 0.8;
+}
+.header-inner .content .content-inner a:hover{
+    opacity: 1;
+}
+.header-inner .poster{
+    width: 50%;
+}
+/* header code end */
+
+/* about code start  */
+.about{
+    margin: 40px 0px;
+}
+        /* article code */
+.about .about-inner article{
+    width: 50%;
+}
+.about .about-inner figure{
+    height: auto;
+    padding-right: 20px;
+}
+.about .about-inner article .content-title{
+    padding-right: 20px;
+}
+.about .about-inner article .content-title a{
+    display: inline-block;
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: 700;
+    color: #212529;
+    font-family: 'Source Sans Pro', sans-serif;
+    transition: 0.5s all;
+    margin-top: 15px;
+}
+.about .about-inner article .content-title a:hover{
+    color: #03A87C;
+}
+.about .about-inner article .content-title p{
+    color: #212529;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Source Sans Pro', sans-serif;
+    margin: 10px 0px;
+}
+.about .about-inner article .content-title small{
+    display: block;
+    color: #6c757d;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+/* aside code */
+.about .about-inner aside{
+    width: 50%;
+}
+.about .about-inner aside .aside{
+    display: flex;
+}
+/* aside-poster code */
+.about .about-inner aside .aside-poster{
+    width: 25%;
+    padding-right: 20px;
+}
+.about .about-inner aside .aside-poster img{
+    height: auto;
+}
+/* aside-content code */
+.about .about-inner aside .aside-content{
+    width: 75%;
+}
+.about .about-inner aside .aside-content a{
+    display: inline-block;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 700;
+    color: #212529;
+    font-family: 'Source Sans Pro', sans-serif;
+    transition: 0.5s all;
+}
+.about .about-inner aside .aside-content a:hover{
+    text-decoration: underline;
+    color: #03A87C;
+}
+
+.about .about-inner aside .aside-content small{
+    display: block;
+    color: #6c757d;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Source Sans Pro', sans-serif;
+    line-height: 18px;
+    margin-top: 10px;
+}
+/* about code end  */
+
+/* ====blog section code start==== */
+    /* article code start */
+.blog .blog-inner article{
+    width: 70%;
+    margin-right: 40px;
+}
+/* inner title code start */
+.blog .blog-inner article .article-inner-title,
+.blog .blog-inner aside .aside-inner-title{
+    margin: 30px 0px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+.blog .blog-inner article .article-inner-title h2,
+.blog .blog-inner aside .aside-inner-title h2{
+    display: inline-block;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgba(0, 0, 0, 1);
+}
+
+.blog .blog-inner .article{
+    display: flex;
+}
+/* article-content code start */
+.blog .blog-inner article .article-content{
+    width: 75%;
+    padding-right: 20px;
+}
+.blog .blog-inner article .article-content a{
+    display: inline-block;
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: 700;
+    color: #212529;
+    font-family: 'Source Sans Pro', sans-serif;
+    transition: 0.5s all;
+}
+.blog .blog-inner article .article-content a:hover{
+    text-decoration: underline;
+    color: #03A87C;
+}
+.blog .blog-inner article .article-content p{
+    color: #212529;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Source Sans Pro', sans-serif;
+    margin: 10px 0px;
+}
+
+.blog .blog-inner article .article-content small{
+    display: block;
+    color: #6c757d;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Source Sans Pro', sans-serif;
+    line-height: 22px;
+}
+/* article-poster code start */
+.blog .blog-inner article .article-poster{
+    width: 25%;
+}
+.blog .blog-inner article .article-poster img{
+    height: auto;
+}
+/* aside code start */
+.blog .blog-inner aside{
+    width: 30%;
+}
+.blog .blog-inner aside .aside-serial{
+    width: 20%;
+}
+.blog .blog-inner aside .aside-serial p{
+    font-size: 3rem;
+    font-weight: bold;
+}
+.blog .blog-inner aside .aside-content{
+    width: 80%;
+}
+/* aside content */
+.blog .blog-inner aside .aside{
+    display: flex;
+}
+.blog .blog-inner aside .aside-content a{
+    display: inline-block;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 700;
+    color: #212529;
+    font-family: 'Source Sans Pro', sans-serif;
+    transition: 0.5s all;
+}
+.blog .blog-inner aside .aside-content a:hover{
+    text-decoration: underline;
+    color: #03A87C;
+}
+
+.blog .blog-inner aside .aside-content small{
+    display: block;
+    color: #6c757d;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Source Sans Pro', sans-serif;
+    line-height: 18px;
+    margin-top: 10px;
+}
+/* blog section code end */
+
+/* footer section code start */
+footer{
+    margin: 60px 0px 30px 0px;
+}
+footer .footer-inner{
+    justify-content: space-between;
+    align-items: center;
+}
+footer .footer-inner p{
+    font-size: 14px ;
+    font-weight: 400;
+    color: #212529;
+}
+footer .footer-inner p small{
+    font-size: 20px ;
+    font-weight: 700;
+    color: #212529;
+    opacity: 0.8;
+    margin-right: 10px;
+}
+footer .footer-inner a{
+    text-decoration: none;
+    font-size: 14px ;
+    font-weight: 700;
+    color: #7832E2;
+    transition: 0.5s all;
+    opacity: 0.8;
+}
+footer .footer-inner a:hover{
+    text-decoration: underline;
+    opacity: 1;
+}
+/* footer section code end */
